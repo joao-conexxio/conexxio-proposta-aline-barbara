@@ -1,0 +1,79 @@
+<section class="blk-pacote" id="pacote">
+  <div class="wrap">
+    <div class="blk-pacote__cab" data-reveal>
+      <p class="blk-pacote__eyebrow">Drenagem é série, não sessão avulsa</p>
+      <h2 class="blk-pacote__titulo">Como corre um pacote</h2>
+      <p class="blk-pacote__lead">O corpo responde ao ritmo. Uma sessão alivia; a sequência é o que mantém o corpo desinchado. O caminho costuma ser este:</p>
+    </div>
+    <ol class="blk-pacote__linha">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-pacote__ico"><!--icone:conversa--></span>
+        <span class="blk-pacote__etapa">Primeira conversa</span>
+        <strong>O que o corpo pede</strong>
+        <p>Retenção, pós-operatório ou cansaço: a Aline ouve a queixa e indica a técnica, o número de sessões e o intervalo entre elas.</p>
+      </li>
+      <li data-reveal style="--d:120ms">
+        <span class="blk-pacote__ico"><!--icone:gota--></span>
+        <span class="blk-pacote__etapa">Primeiras sessões</span>
+        <strong>O inchaço cede</strong>
+        <p>Manobras lentas, no sentido da circulação. É comum sentir o corpo mais leve e ir mais ao banheiro no mesmo dia.</p>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-pacote__ico"><!--icone:agenda--></span>
+        <span class="blk-pacote__etapa">Meio do pacote</span>
+        <strong>Não pular a semana</strong>
+        <p>É aqui que muita gente perde o ritmo. Sair com a próxima sessão marcada é o que segura o resultado.</p>
+      </li>
+      <li data-reveal style="--d:360ms">
+        <span class="blk-pacote__ico"><!--icone:check--></span>
+        <span class="blk-pacote__etapa">Fim do pacote</span>
+        <strong>Manutenção</strong>
+        <p>Com o corpo desinchado, as sessões se espaçam. A Aline diz de quanto em quanto tempo vale voltar.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-pacote{padding-block:var(--sp-section)}
+.blk-pacote__cab{max-width:40rem;margin-bottom:var(--sp-5)}
+.blk-pacote__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-pacote__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-pacote__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-pacote__linha{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-pacote__linha li{
+  padding:var(--sp-4) var(--sp-3) var(--sp-3);
+  background:color-mix(in srgb,var(--pulse) 10%,var(--bg));
+  border:1px solid color-mix(in srgb,var(--pulse) 35%,transparent);
+  border-radius:var(--radius);
+}
+.blk-pacote__linha li:nth-child(3){background:var(--brand);border-color:var(--brand);color:var(--bg)}
+.blk-pacote__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-pacote__ico svg{width:100%;height:100%}
+.blk-pacote__linha li:nth-child(3) .blk-pacote__ico{color:var(--pulse)}
+.blk-pacote__etapa{
+  display:block;margin-top:var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;
+  color:color-mix(in srgb,var(--ink) 62%,transparent);
+}
+.blk-pacote__linha li:nth-child(3) .blk-pacote__etapa{color:var(--pulse)}
+.blk-pacote__linha strong{
+  display:block;margin-top:.3em;font-family:var(--f-display);font-size:1.6rem;
+  font-weight:500;line-height:1.15;color:var(--ink);
+}
+.blk-pacote__linha li:nth-child(3) strong{color:var(--bg)}
+.blk-pacote__linha p{margin:var(--sp-2) 0 0;font-size:.95rem;line-height:1.55;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-pacote__linha li:nth-child(3) p{color:color-mix(in srgb,var(--bg) 82%,transparent)}
+@media (min-width:48rem){
+  .blk-pacote__linha{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:72rem){
+  .blk-pacote__linha{grid-template-columns:repeat(4,1fr)}
+}
+</style>

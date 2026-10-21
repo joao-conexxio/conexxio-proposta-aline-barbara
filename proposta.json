@@ -1,0 +1,218 @@
+{
+  "slug": "aline-barbara",
+  "negocio": {
+    "nome": "Aline Bárbara · Estética Avançada",
+    "logo": "brand/logo.png",
+    "whatsapp": "5521982222955",
+    "unidades": [
+      {
+        "bairro": "Copacabana · Rio de Janeiro",
+        "endereco": "R. Barata Ribeiro, 383, sala 304 (Centro Comercial Copacabana) – Copacabana, Rio de Janeiro – RJ, 22040-001",
+        "telefone": "(21) 98222-2955",
+        "horario": "Das 7h às 21h30, com hora marcada"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#1C1813",
+    "brand2": "#0E0C09",
+    "ink": "#1F1B16",
+    "bg": "#F7F2E9",
+    "pulse": "#D4AF6A",
+    "radius": "10px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Pacote",
+            "href": "#pacote"
+          },
+          {
+            "texto": "A sala",
+            "href": "#sala"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Sala 304 · Copacabana",
+        "h1": "Drenagem e massagem na Barata Ribeiro",
+        "lead": "A Aline Bárbara atende no Centro Comercial Copacabana das 7h às 21h30, antes do trabalho ou na volta para casa.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "4,9 no Google · 198 avaliações · Copa · ",
+        "cardTitulo": "Fale direto com a Aline",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Drenagem linfática",
+          "Pós-operatório",
+          "Massagem relaxante",
+          "Radiofrequência",
+          "Estética corporal",
+          "Sala 304 · Barata Ribeiro",
+          "Das 7h às 21h30"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Quem deita na maca, avalia",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "198",
+            "rotulo": "avaliações de clientes",
+            "contar": 198
+          },
+          {
+            "valor": "7h",
+            "rotulo": "primeiro horário do dia"
+          },
+          {
+            "valor": "21h30",
+            "rotulo": "último horário, para quem sai tarde"
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Estética avançada, feita à mão",
+        "citacao": "Drenagem não é massagem forte. É ritmo, direção e paciência.",
+        "texto": [
+          "A drenagem linfática trabalha com pressão leve e manobras lentas, sempre no sentido em que o corpo escoa o líquido. Feita com pressa ou com força, vira só uma massagem. Feita do jeito certo, a cliente sai da maca mais leve.",
+          "É assim na sala 304 da Barata Ribeiro: hora marcada, uma cliente por vez, e a técnica escolhida pela queixa de quem chega. Pode ser o inchaço do dia a dia, a recuperação de uma cirurgia ou só o corpo pedindo pausa."
+        ],
+        "imagem": "midia/placa.jpg",
+        "imagemAlt": "Logo da Aline Estética Avançada: o nome em dourado sobre uma flor estilizada, em fundo preto"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Os tratamentos",
+        "lead": "Do inchaço do dia a dia à recuperação de uma cirurgia. Valores e pacotes, a Aline passa pelo WhatsApp.",
+        "itens": [
+          {
+            "nome": "Drenagem linfática",
+            "descricao": "Pressão leve e ritmo constante para o corpo eliminar o líquido retido. Pernas mais leves, menos inchaço no fim do dia, e um sono que costuma vir mais fácil.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Drenagem pós-operatória",
+            "descricao": "Acompanha a recuperação de lipo, abdominoplastia e outras cirurgias plásticas, com a liberação do seu cirurgião. Ajuda a reduzir o inchaço e a evitar a fibrose.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Massagem relaxante",
+            "descricao": "Para o ombro que trava, as costas que pesam e a cabeça que não desliga. Uma hora para o corpo soltar.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Radiofrequência corporal",
+            "descricao": "O aparelho aquece as camadas da pele e estimula colágeno, para tratar flacidez e gordura localizada. Funciona melhor em série, junto com a drenagem.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Outro cuidado em mente?",
+            "descricao": "Conte no WhatsApp o que está sentindo ou o que quer tratar. A Aline responde com o que indica para o seu caso.",
+            "icone": "conversa"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/pacote.html"
+    },
+    {
+      "custom": "blocos/sala.html"
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Drenagem dói?",
+            "r": "Não. A pressão é leve, bem mais suave que a de uma massagem comum. No pós-operatório a área pode estar sensível, e a Aline ajusta a mão a isso."
+          },
+          {
+            "p": "Quando posso começar no pós-operatório?",
+            "r": "Quando o seu cirurgião liberar. Muitos indicam começar nos primeiros dias depois da cirurgia. Leve a orientação dele na primeira sessão."
+          },
+          {
+            "p": "Quantas sessões vou precisar?",
+            "r": "Depende do objetivo. O número e o intervalo saem da primeira conversa, e o pós-operatório costuma pedir mais sessões que a drenagem de manutenção."
+          },
+          {
+            "p": "Preciso levar alguma coisa?",
+            "r": "Venha com roupa confortável. No pós-operatório, traga a cinta ou a malha compressiva que estiver usando."
+          },
+          {
+            "p": "Como agendar?",
+            "r": "Pelo WhatsApp. Diga o tratamento e o horário que prefere, cedo ou à noite, e a Aline responde com o horário livre mais próximo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na Barata Ribeiro, perto do metrô Siqueira Campos"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Seu corpo mais leve começa com uma mensagem",
+        "lead": "Diga o tratamento e o horário que cabe na sua rotina. A Aline responde pelo WhatsApp.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Resultados variam de pessoa para pessoa. Drenagem pós-operatória com liberação do cirurgião responsável."
+      }
+    }
+  ]
+}

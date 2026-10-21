@@ -1,0 +1,67 @@
+<section class="blk-sala" id="sala">
+  <div class="wrap">
+    <div class="blk-sala__cab" data-reveal>
+      <p class="blk-sala__eyebrow">Sala 304 · Centro Comercial Copacabana</p>
+      <h2 class="blk-sala__titulo">Uma sala que recebe todo mundo</h2>
+      <p class="blk-sala__lead">Sessão de drenagem é hora de soltar o corpo. Para isso, a cliente precisa chegar sem barreira e se sentir em casa. Está tudo declarado no perfil do Google, e a sala é assim:</p>
+    </div>
+    <ul class="blk-sala__grade">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-sala__ico"><!--icone:check--></span>
+        <strong>Sem degrau no caminho</strong>
+        <p>Entrada, banheiro e assento acessíveis para quem usa cadeira de rodas.</p>
+      </li>
+      <li data-reveal style="--d:120ms">
+        <span class="blk-sala__ico"><!--icone:conversa--></span>
+        <strong>Aro magnético</strong>
+        <p>Quem usa aparelho auditivo ouve a conversa sem ruído de fundo. É raro em sala de estética.</p>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-sala__ico"><!--icone:coracao--></span>
+        <strong>Acolhe a comunidade LGBTQ+</strong>
+        <p>Atendimento sem pergunta atravessada e sem olhar torto, para qualquer corpo.</p>
+      </li>
+      <li data-reveal style="--d:360ms">
+        <span class="blk-sala__ico"><!--icone:mulher--></span>
+        <strong>Negócio de empreendedora</strong>
+        <p>O perfil no Google se declara empresa de empreendedoras: um negócio tocado por mulher, em Copacabana.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<style>
+.blk-sala{padding-block:var(--sp-section)}
+.blk-sala__cab{max-width:40rem;margin-bottom:var(--sp-5)}
+.blk-sala__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-sala__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-sala__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-sala__grade{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-sala__grade li{
+  padding:var(--sp-4) var(--sp-3) var(--sp-3);
+  background:var(--brand);color:var(--bg);
+  border-radius:var(--radius);
+}
+.blk-sala__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--pulse)}
+.blk-sala__ico svg{width:100%;height:100%}
+.blk-sala__grade strong{
+  display:block;margin-top:var(--sp-2);font-family:var(--f-display);font-size:1.6rem;
+  font-weight:500;line-height:1.15;color:var(--pulse);
+}
+.blk-sala__grade p{
+  margin:var(--sp-2) 0 0;font-size:.95rem;line-height:1.55;
+  color:color-mix(in srgb,var(--bg) 82%,transparent);
+}
+@media (min-width:48rem){
+  .blk-sala__grade{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:72rem){
+  .blk-sala__grade{grid-template-columns:repeat(4,1fr)}
+}
+</style>
